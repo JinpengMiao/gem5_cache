@@ -35,7 +35,7 @@ gem5_binary = Artifact.registerArtifact(
     typ = 'gem5 binary',
     name = 'gem5-19',
     cwd = 'gem5/',
-   # path =  'gem5/build/X86/gem5.opt',
+    path =  './', #'gem5/build/X86/gem5.opt',
     inputs = [gem5_repo,],
     documentation = 'build gem5'
 )
