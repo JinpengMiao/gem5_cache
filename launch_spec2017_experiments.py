@@ -24,7 +24,7 @@ gem5_repo = Artifact.registerArtifact(
     ''',
     typ = 'git repo',
     name = 'gem5',
-    path =  'gem5/',
+    path =  './',
     cwd = './',
     documentation = 'cloned gem5 v19'
 )
